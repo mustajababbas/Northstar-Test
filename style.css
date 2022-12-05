@@ -89,6 +89,26 @@ border: none;
 outline: none;
 }
 
+.violation-type{
+    position: relative;
+}
+
+.label-sec{
+    position: absolute;
+    font-weight: 600;
+font-size: 8px;
+background-color: var(--red);
+color: var(--white);
+border-radius: 50%;
+left: 60px;
+bottom: 0;
+height: 20px;
+width: 20px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
 /* .violation-type select option[value="trash"]:after{
 content:"2nd";
 } */
@@ -119,8 +139,8 @@ text-underline-offset: 5px;
     color: var(--white);
     height: 20px;
     width: 20px;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 16px;
     display: inline-flex;
     border-radius: 50%;
     align-items: center;
